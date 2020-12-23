@@ -3,8 +3,8 @@ var gProjects = [
 
     {
         id: 'mixtape',
-        name: 'mixTape',
-        title: 'mixTape',
+        name: 'mixtape',
+        title: 'mixtape',
         desc: `טכנולוגויות פיתוח 
         VUE, NODE JS , REST API; MONGO, CLOUDINARY, SASS, JS es6  
         הסבר על האפלקציה:
