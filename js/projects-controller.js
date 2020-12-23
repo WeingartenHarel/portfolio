@@ -27,7 +27,7 @@ function renderModal() {
                                 </p>
                                 <ul class="list-inline">
                                     <li>Date:  ${project.publishedAt}</li>
-                                    <li>URL: <a href="https://github.com/WeingartenHarel/${project.id}/index.html">https://github.com/WeingartenHarel/${project.id}/index.html</a></li>
+                                    <li>URL: <a href=${project.url} target="_blank">${project.url}</a></li>
                                     <li>Category: ${getLabels(project.labels)}</li>
                                 </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">

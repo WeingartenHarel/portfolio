@@ -2,7 +2,7 @@
 // JavaScript source code
 console.log('projects servise')
 var STORAGE_KEY = 'gProjects'
-const PAGE_SIZE = 4;
+const PAGE_SIZE = 10;
 var gPageIdx = 0;
 
 _createProjects();
