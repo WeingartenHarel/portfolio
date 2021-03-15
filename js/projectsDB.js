@@ -23,7 +23,8 @@ var gProjects = [
 עיצוב:
 העיצוב גם כן שלי, הלוגו כמו כן בחיהאפליקציה והפונטים. UX גם פותח על ידי ונשען על UX של ספוטיפיי, האפליקציה כמובן רספונסיבית ותומכת במצב דסקטופ ומצב מובייל  (שימוש ב SAAS)`,
        
-        url: 'https://awesome-mixtape.herokuapp.com/',
+        urlSec: 'https://awesome-mixtape.herokuapp.com/',
+        url:'http://mixtape-pagaz.herokuapp.com/',
         publishedAt: '9.10.2020',
         labels: ['CURDL', 'MVC'],
     },
