@@ -1,60 +1,57 @@
 'use strict';
 var gProjects = [
-
+    {
+        id: 'xdredr',
+        name: 'EDR XDR',
+        title: 'EDR XDR @ Checkpoint',
+        desc: `Full-Stack Developer @ Checkpoint 2021-2023 
+        Created application screens and components to present events data using React and Type Script
+        Created backend auth API and REST API for handling big data using NodeJS, Typescript
+       Maintained CI/CD processes using Cloudinfra cloud solutions.`,
+        url: 'https://www.youtube.com/watch?v=-cLF1SKMD0w',
+        publishedAt: '30.10.2023',
+        labels: ['REact', 'Node jS', 'Socket' , 'REST', 'MVC','CICD','JEST','Mongo DB' , 'mySQL' ],
+    },
+    {
+        id: 'delawvery',
+        name: 'Delawvery',
+        title: 'Full-Stack Developer & Team Lead @ Delawver 2021',
+        desc: `Full-Stack Developer & Team Lead @ Delawver 2021
+        • Developed a Webapp application for delivery solutions, including the application's architecture, screens,
+        components, payment solution, and data management
+        • Managed a full stack programming team Managed a full stack programming team`,
+        url: 'https://app.delawvery.co.il/',
+        publishedAt: '30.10.2023',
+        labels: ['REact', 'Node jS', 'Socket' , 'REST', 'MVC', 'Mongo DB', 'Fire Base'],
+    },
     {
         id: 'mixtape',
-        name: 'mixtape',
-        title: 'mixtape',
-        desc: `טכנולוגויות פיתוח 
-        VUE, NODE JS , REST API; MONGO, CLOUDINARY, SASS, JS es6  
-        הסבר על האפלקציה:
-        אפליקציה להאזנה , יצירה ושיתוף של רשימת השמעת מוזיקה. דומה לספוטיפיי. רק עם ענין שיתופי, כמו פודקאסטים או יוטיוב לייב.
-        משתמשים יכולים להיכנס לפלייליסט מסוים לשמוע אותו ביחד, לערוך אותו - על כל מאפייניו , לשנות את סדר השירים להתכתב בצ'ט ייחודי לכל חדר השמעה ועוד...',
+        name: 'MixTape',
+        title: 'MixTape',
+        desc: `App description:
+        Development technologies React, NODE JS, REST API, MONGO, CLOUDINARY, SASS, JS es6
+        Description of the application: an application for listening,
+        creating, and sharing a music playlist. Similar to Spotify.
+        Only with collaborative content, such as podcasts or YouTube Live.
+        Users can enter a certain playlist to listen to it together, edit it - for all its features,
+        change the order of the songs, correspond in a unique chat for each playback room, and more...',
+        the application includes full CRUDL and uses a REST API to send requests to the server and
+        receive or manage Information and includes different services and rates according
+        to each entity in the database. Communication between users.
+        Also, full synchronization of information between users is carried out by sockets
+        sent from the client side to the server side and back.
+        Use of an external API: in order to play the songs,
+        a library is used that plays songs through YouTube servers.
+        Songs and song searches are also done through the Google API (YouTube)
+        in addition, there is also the use of the drag and drop library in order to manage the order of songs
+        in a certain playlist while updating the server in Live Design: the design is also mine,
+        the logo is also in the app, and the fonts. UX was also developed by me and is based on Spotify's UX,`,
        
-האפליקציה כולל CRUDL מלא ומשתמשת REST API על מנת לשלוח בקשות אל השרת ולקבל או לנהל מידע וכולל סרביסים וראטים שונים בהתאמה לכל ישות במאגר מידע
-תקשורת בין משתמשים כמו כן סנכרון מלא של מידע בין משתמשים מתבצע על ידיי סוקטים נשלחים מצד לקוח לצד השרת ובחזרה
-
-שימוש ב API חיצוני:
-על מנת להשמיע את השירים נעשה שימוש בספרייה שמנגנת שירים דרך שרתי יוטיוב
-הוספת שירים וחיפוש שירים גם נעשים דרך API של גוגל (יו טיוב)
-
-בנוסף יש גם שימוש בספריית דראג אנד דרופ על מנת לנהל סדר של שירים בפלייליסט מסוים תוך כדי עדכון השרת בלייב
-
-עיצוב:
-העיצוב גם כן שלי, הלוגו כמו כן בחיהאפליקציה והפונטים. UX גם פותח על ידי ונשען על UX של ספוטיפיי, האפליקציה כמובן רספונסיבית ותומכת במצב דסקטופ ומצב מובייל  (שימוש ב SAAS)`,
-       
-        urlSec: 'https://awesome-mixtape.herokuapp.com/#/',
-        url:'https://awesome-mixtape.herokuapp.com/#/',
+        urlSec: 'https://mixtapeapp.onrender.com/',
+        url:'https://mixtapeapp.onrender.com/',
         publishedAt: '9.10.2020',
-        labels: ['CURDL', 'MVC'],
-    },
-    {
-        id: 'memegenerator',
-        name: 'MEME generator',
-        title: 'MEME generator',
-        desc: 'MEME generator',
-        url: 'https://weingartenharel.github.io/meme-generator/',
-        publishedAt: '9.10.2020',
-        labels: ['CURDL', 'MVC'],
-    },
-    {
-        id: 'landingpages',
-        name: 'Landing pages',
-        title: 'Landing pages',
-        desc: 'Landing pages',
-        url: 'https://photos.app.goo.gl/71cUrn84saSH1o5fA',
-        publishedAt: '9.10.2020',
-        labels: ['CURDL', 'MVC'],
-    },
-    {
-        id: 'googlesim',
-        name: 'Googles sims',
-        title: 'Googles sims',
-        desc: 'Google gmail notes and books simulator',
-        url: 'https://weingartenharel.github.io/googlesim/#/',
-        publishedAt: '9.10.2020',
-        labels: ['CURDL', 'MVC'],
-    },
+        labels: ['React', 'Node jS', 'Socket' , 'REST', 'MVC' , 'Mongo DB', 'AWS'],
+    },  
     {
         id: 'bestten',
         name: 'Ten Best Casino',
@@ -62,6 +59,26 @@ var gProjects = [
         desc: 'Ten Best Casino',
         url: 'https://weingartenharel.github.io/bestten/',
         publishedAt: '9.10.2020',
+        labels: ['React', 'Node jS', 'REST', 'MVC'],
+    } ,
+
+    {
+        id: 'landingpages',
+        name: '888.com',
+        title: '888.com Landing page',
+        desc: '888.com Landing page',
+        url: 'https://photos.app.goo.gl/71cUrn84saSH1o5fA',
+        publishedAt: '9.10.2020',
         labels: ['CURDL', 'MVC'],
-    } 
+    },
+    {
+        id: 'memegenerator',
+        name: 'MEME generator',
+        title: 'MEME generator',
+        desc: 'MEME generator Google Canvas',
+        url: 'https://weingartenharel.github.io/meme-generator/',
+        publishedAt: '9.10.2020',
+        labels: ['Google Canas'],
+    },
+
 ];

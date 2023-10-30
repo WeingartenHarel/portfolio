@@ -1,10 +1,17 @@
 body {
     overflow-x: hidden;
     font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f8f9fa;
 }
 :root {
     --main-colorA: #0784e0;
     --main-colorB: #0fbebe;
+}
+
+.specialties img{
+    width: 140px;
+    height: auto;
+    border-radius: 100px;
 }
 
 input, textarea, button[type="submit"] {
@@ -78,7 +85,7 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
     section {
-        padding: 150px 0;
+        padding: 60px;
     }
 }
 ::-moz-selection {
@@ -223,9 +230,9 @@ body {
     }
    
 }
-header.masthead {
+header.masthead .container {
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     background-image: url("../img/header-bg.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -235,8 +242,21 @@ header.masthead {
     -o-background-size: cover;
     background-size: cover;
 }
+
+header.masthead .container {    
+    /* content: "";
+    background-image: url('../img/header-bg.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75; */
+}
+
 header.masthead .intro-text {
-    padding-top: 150px;
+    padding-top: 130px;
     padding-bottom: 100px;
 }
 header.masthead .intro-text .intro-lead-in {
@@ -612,6 +632,11 @@ header.masthead .intro-text .intro-heading {
 }
 .about-description {
     max-width: 80%;
+}
+.about-description-container {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
 }
 @media (max-width: 800px) {
     .about-description {

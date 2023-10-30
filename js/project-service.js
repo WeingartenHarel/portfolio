@@ -1,12 +1,10 @@
 
 // JavaScript source code
-console.log('projects servise')
 var STORAGE_KEY = 'gProjects'
 const PAGE_SIZE = 10;
 var gPageIdx = 0;
 
 _createProjects();
-console.log('projects', gProjects)
 
 function getLabels(labels) {
     console.log('labels', labels)
@@ -16,7 +14,6 @@ function getLabels(labels) {
    console.log('labels strHTM', strHTML);
     return strHTML;
 }
-
 
 
 function getProjectId(projectId) {
@@ -43,18 +40,14 @@ function _createProject(id, name, title, desc, url, publishAt, labels) {
     }
 }
 
-
 function _createProjects() {
     var projects = loadFromStorage(STORAGE_KEY)
     if (!projects || !projects.length) {
         projects = []
-       // projects[0] = _createProject('bookstore', 'Book shop', 'Book shop menegment system', 'Book shop menegment system', 'someurl', '9.10.2020', ['CURDL', 'MVC']);
-
-        //console.log('projects', projects)
         gProjects = projects;
     }
 }
 
-function _saveProjectsToStorage() { // save to.....
+function _saveProjectsToStorage() { 
     saveToStorage(STORAGE_KEY, gBooks)
 }
