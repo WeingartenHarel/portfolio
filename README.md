@@ -1,7 +1,3 @@
-# [Cosing Academy - Base Gallery]
-A responsive portfolio grid to be used by Coding Academy students
-
-
 ## Usage
 
 ### Basic Usage
