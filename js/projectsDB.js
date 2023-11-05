@@ -8,7 +8,7 @@ var gProjects = [
         Created application screens and components to present events data using React and Type Script
         Created backend auth API and REST API for handling big data using NodeJS, Typescript
        Maintained CI/CD processes using Cloudinfra cloud solutions.`,
-        url: 'https://www.youtube.com/watch?v=-cLF1SKMD0w',
+        url: 'https://www.youtube.com/watch?v=jnJbcotDh0U&t',
         publishedAt: '30.10.2023',
         labels: ['REact', 'Node jS', 'Socket' , 'REST', 'MVC','CICD','JEST','Mongo DB' , 'mySQL' ],
     },
@@ -57,7 +57,7 @@ var gProjects = [
         name: 'Ten Best Casino',
         title: 'Ten Best Casino',
         desc: 'Ten Best Casino',
-        url: 'https://weingartenharel.github.io/bestten/',
+        url: '',
         publishedAt: '9.10.2020',
         labels: ['React', 'Node jS', 'REST', 'MVC'],
     } ,
