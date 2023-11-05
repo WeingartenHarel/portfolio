@@ -1,7 +1,7 @@
 'use strict';
 var gProjects = [
     {
-        id: 'xdredr',
+        id: 'xdredrapp',
         name: 'EDR XDR',
         title: 'EDR XDR @ Checkpoint',
         desc: `Full-Stack Developer @ Checkpoint 2021-2023 
