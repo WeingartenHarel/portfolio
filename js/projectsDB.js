@@ -2,8 +2,8 @@
 var gProjects = [
     {
         id: 'xdredrapp',
-        name: 'EDR XDR',
-        title: 'EDR XDR @ Checkpoint',
+        name: 'Checkpoint',
+        title: 'EDR XDR Webapp @ Checkpoint',
         desc: `Full-Stack Developer @ Checkpoint 2021-2023 
         Created application screens and components to present events data using React and Type Script
         Created backend auth API and REST API for handling big data using NodeJS, Typescript
@@ -14,7 +14,7 @@ var gProjects = [
     },
     {
         id: 'delawvery',
-        name: 'Delawvery',
+        name: 'Delawvery Webapp',
         title: 'Full-Stack Developer & Team Lead @ Delawver 2021',
         desc: `Full-Stack Developer & Team Lead @ Delawver 2021
         • Developed a Webapp application for delivery solutions, including the application's architecture, screens,
@@ -27,7 +27,7 @@ var gProjects = [
     {
         id: 'mixtape',
         name: 'MixTape',
-        title: 'MixTape',
+        title: 'MixTape Webapp',
         desc: `App description:
         Development technologies React, NODE JS, REST API, MONGO, CLOUDINARY, SASS, JS es6
         Description of the application: an application for listening,
@@ -55,7 +55,7 @@ var gProjects = [
     {
         id: 'bestten',
         name: 'Ten Best Casino',
-        title: 'Ten Best Casino',
+        title: 'Ten Best Casino Webapp',
         desc: 'Ten Best Casino',
         url: '',
         publishedAt: '9.10.2020',
@@ -65,7 +65,7 @@ var gProjects = [
     {
         id: 'landingpages',
         name: '888.com',
-        title: '888.com Landing page',
+        title: '888.com Landing page Website',
         desc: '888.com Landing page',
         url: 'https://photos.app.goo.gl/71cUrn84saSH1o5fA',
         publishedAt: '9.10.2020',
@@ -73,7 +73,7 @@ var gProjects = [
     },
     {
         id: 'memegenerator',
-        name: 'MEME generator',
+        name: 'MEME generator Website',
         title: 'MEME generator',
         desc: 'MEME generator Google Canvas',
         url: 'https://weingartenharel.github.io/meme-generator/',
