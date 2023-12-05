@@ -28,13 +28,14 @@ function getProjects() {
     return gProjects.slice(fromIdx, fromIdx + PAGE_SIZE)
 }
 
-function _createProject(id, name, title, desc, url, publishAt, labels) {
+function _createProject(id, name, title, desc, url, urlGit,  publishAt, labels) {
     return {
         id: id,
         name: name,
         title: title,
         desc: desc,
         url: url,
+        urlGit: urlGit,
         publishedAt: publishAt,
         labels: labels,
     }

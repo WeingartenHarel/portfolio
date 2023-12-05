@@ -21,7 +21,7 @@ var gProjects = [
         components, payment solution, and data management
         • Managed a full stack programming team Managed a full stack programming team`,
         url: 'https://app.delawvery.co.il/',
-        publishedAt: '30.10.2023',
+        publishedAt: '30.10.2021',
         labels: ['REact', 'Node jS', 'Socket' , 'REST', 'MVC', 'Mongo DB', 'Fire Base'],
     },
     {
@@ -49,7 +49,8 @@ var gProjects = [
        
         urlSec: 'https://mixtapeapp.onrender.com/',
         url:'https://mixtapeapp.onrender.com/',
-        publishedAt: '9.10.2020',
+        urlGit:'https://github.com/WeingartenHarel/mixtape-react',
+        publishedAt: '01.01.2021',
         labels: ['React', 'Node jS', 'Socket' , 'REST', 'MVC' , 'Mongo DB', 'AWS'],
     },  
     {
@@ -58,27 +59,34 @@ var gProjects = [
         title: 'Ten Best Casino Webapp',
         desc: 'Ten Best Casino',
         url: '',
-        publishedAt: '9.10.2020',
+        publishedAt: '01.01.2020',
         labels: ['React', 'Node jS', 'REST', 'MVC'],
     } ,
-
     {
-        id: 'landingpages',
+        id: '888',
         name: '888.com',
-        title: '888.com Landing page Website',
-        desc: '888.com Landing page',
-        url: 'https://photos.app.goo.gl/71cUrn84saSH1o5fA',
-        publishedAt: '9.10.2020',
+        title: '888.com Website',
+        desc: '888.com Poker portal',
+        url: 'https://www.888poker.com/',
+        publishedAt: '01.01.2018',
         labels: ['CURDL', 'MVC'],
     },
     {
-        id: 'memegenerator',
-        name: 'MEME generator Website',
-        title: 'MEME generator',
-        desc: 'MEME generator Google Canvas',
-        url: 'https://weingartenharel.github.io/meme-generator/',
-        publishedAt: '9.10.2020',
-        labels: ['Google Canas'],
-    },
-
-];
+        id: 'wedo',
+        name: 'wedoit.co.il',
+        title: 'wedoit.co.il a unitask subsidiary',
+        desc: 'Wedo is a unitask subsidiary',
+        url: 'https://wedoit.co.il',
+        publishedAt: '01.01.2016',
+        labels: ['CURDL', 'MVC'],
+    }
+]
+// {
+//     id: 'memegenerator',
+//     name: 'MEME generator Website',
+//     title: 'MEME generator',
+//     desc: 'MEME generator Google Canvas',
+//     url: 'https://weingartenharel.github.io/meme-generator/',
+//     publishedAt: '9.10.2020',
+//     labels: ['Google Canas'],
+// },
