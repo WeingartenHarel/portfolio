@@ -1,8 +1,23 @@
 'use strict';
 var gProjects = [
     {
+        id: 'tigo',
+        name: 'Tigo Energy',
+        title: 'Software engineer @ Tigo energy : 2023 - till now',
+        desc: `F Developed and maintained software solutions for the TS4 Flex MLPE platform, focusing on enhancing safety, energy
+yield, and operational efficiency in solar PV systems. Led grid code feature development for 1-phase and 3-phase
+inverters, including North American models, ensuring compliance with international standards. Designed scalable
+backend systems with PHP and NestJS, integrating complex SQL queries using PostgreSQL. Created front-end
+components and mobile applications with Vue, Cordova, Ionic, and TypeScript. Managed API integration with solar
+equipment, optimizing data accuracy and reliability. Worked under pressure, maintained flexibility, and adhered to
+.Agile methodologies for continuous software improvement`,
+        url: 'https://www.tigoenergy.com/monitoring',
+        publishedAt: '01.03.2025',
+        labels: ['REact', 'Node jS', 'Socket' , 'REST', 'MVC','CICD','JEST','Mongo DB' , 'mySQL' ],
+    },
+    {
         id: 'xdredrapp',
-        name: 'Checkpoint',
+        name: 'XDR / EDR App',
         title: 'EDR XDR Webapp @ Checkpoint',
         desc: `Full-Stack Developer @ Checkpoint 2021-2023 
         Created application screens and components to present events data using React and Type Script
@@ -81,12 +96,3 @@ var gProjects = [
         labels: ['CURDL', 'MVC'],
     }
 ]
-// {
-//     id: 'memegenerator',
-//     name: 'MEME generator Website',
-//     title: 'MEME generator',
-//     desc: 'MEME generator Google Canvas',
-//     url: 'https://weingartenharel.github.io/meme-generator/',
-//     publishedAt: '9.10.2020',
-//     labels: ['Google Canas'],
-// },
